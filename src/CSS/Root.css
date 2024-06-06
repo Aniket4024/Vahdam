@@ -1,0 +1,11 @@
+:root{
+    --tertiory:#115740;
+
+
+    --white:#fff;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}

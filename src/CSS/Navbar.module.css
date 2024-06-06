@@ -1,0 +1,38 @@
+#Navbar{
+    /* background-color: red; */
+    width: 100%;
+    padding: 2.5vh 0px 2vh 0px;
+    top:5vh;
+    position: fixed;
+    transition: all 0.3s;
+}
+#Navbar>div:nth-child(1){
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#NavLeft{
+    img{
+        width: 6vh;
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+        filter: drop-shadow(rgba(0, 0, 0, 0.24) 0px 3px 8px);
+    }
+}
+
+#NavMiddle{
+    img{
+        width: 18vh;        
+    }
+}
+
+#NavRight{
+    gap:0px 2.5vh;
+    justify-content: flex-end;
+
+    img{
+        width: 2vh;      
+        filter: drop-shadow(rgba(0, 0, 0, 0.24) 0px 3px 8px);
+    }
+}

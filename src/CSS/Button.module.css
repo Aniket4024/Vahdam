@@ -1,0 +1,8 @@
+.ShopNowButn{
+    text-transform: uppercase;
+    background-color: var(--tertiory);
+    border: 0;
+    color: var(--white);
+    padding: 2vh 8vh;
+    font-size: 2vh;
+}
