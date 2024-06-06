@@ -5,6 +5,7 @@
     top:5vh;
     position: fixed;
     transition: all 0.3s;
+    z-index: 5;
 }
 #Navbar>div:nth-child(1){
     width: 80%;

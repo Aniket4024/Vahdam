@@ -1,0 +1,64 @@
+#Sec6Care{
+    width: 100%;
+    background-color: var(--secondary);
+}
+#Sec6Care>div{
+    border-bottom: 0.3vh solid #ded4adbe;   
+    padding: 0vh 0px 8vh 0; 
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#careLeft{
+    height: 65vh;
+    width: 45%;
+    background-image: url("../../Assets/WeCare/we_care_for_left_main.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50vh 50vh 0 0;
+}
+#careRight{
+    width: 47%;
+    text-align: start;
+}
+
+#careRight>h1{
+    line-height: 6.5vh;
+    margin-top: 2vh;
+}
+#careRight>div:nth-child(3){
+    margin: 1vh 0px;
+}
+.item{
+    justify-content: flex-start;
+    gap: 0 3vh;
+    width: 80%;
+    
+    img{
+        width: 6vh;
+    }
+    p{
+        font-size: 2vh;
+        font-weight: 700;
+        
+        span{
+            font-weight: 500;
+        }
+    }
+}
+#careRight>div:nth-child(4){
+    justify-content: flex-start;
+    gap: 0 3vh;
+}
+#careRight>div:nth-child(4)>img{
+    width: 10vh;
+    height: 5vh;
+}
+#careRight>div:nth-child(4)>img:nth-child(1){
+    width: auto;
+}
+#careRight>div:nth-child(4)>img:nth-child(4){
+    width: auto;
+}

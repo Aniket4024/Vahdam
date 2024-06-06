@@ -20,8 +20,8 @@ const data = [
 
 const Sec2Category = () => {
   return <section id={style.Sec2Category}>
-    <p>Something For Everyone</p>
-    <h1>Shop by Category</h1>
+    <p className='headingP'>Something For Everyone</p>
+    <h1 className='headingH1'>Shop by Category</h1>
 
     <div className='flex' id={style.categoryBoxes}>
         {

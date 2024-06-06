@@ -44,4 +44,11 @@
     width: 100%;
     padding: 1vh 0px;
     font-family: "Gotu", sans-serif;
+    border: 0.3vh solid var(--tertiory);
+}
+.ProductCard>button:hover{
+    background-color: white;
+    color: var(--tertiory);
+    font-weight: 600;
+    transition: font 0s;
 }

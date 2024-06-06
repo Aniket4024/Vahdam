@@ -1,0 +1,55 @@
+#Sec5Story{
+    padding: 10vh 0;
+    background-color: var(--secondary);
+    width: 100%;
+}
+#Sec5Story>div{
+    width: 80%;
+    margin: auto;
+    border-top: 0.3vh solid #ded4adbe;   
+    border-bottom: 0.3vh solid #ded4adbe;   
+    justify-content: space-between; 
+    padding: 8vh 0px;
+}
+
+#storyLeft{
+    width: 47%;
+    text-align: start;
+}
+#storyLeft>p:nth-child(3){
+    font-size: 2vh;
+    font-weight: 500;
+    line-height: 3vh;
+    margin:2vh 0;
+
+    span{
+        color: #ab8744;
+    }
+}
+#storyLeft>button{
+    background-color: #ab8744;
+    margin: 3vh 0px 0px 0px;
+    font-family: "Gotu", sans-serif;
+    padding: 1.5vh 5vh;
+    font-size: 1.8vh;
+    transition: all 0.3s;
+}
+#storyLeft>button:hover{
+    transform: scale(1.1);
+}
+
+#storyRight{
+    width: 47%;
+    text-align: start;
+}
+#storyRight>img{
+    width: 40vh;
+}
+#storyRight>div>img:nth-child(1){
+    width: 30vh;
+    margin-left: -2vh;
+}
+#storyRight>div>img:nth-child(2){
+    width: 25vh;
+    margin: -20vh 0 4vh 4vh;
+}

@@ -1,4 +1,5 @@
 :root{
+    --secondary:#fbf6e3;
     --tertiory:#115740;
 
 
@@ -8,6 +9,20 @@
 .flex{
     display: flex;
     align-items: center;
+}
+
+.headingH1{
+    margin: 0.5vh 0 0 0;
+    font-size: 5vh;
+    color: #ab8744;
+    font-family: "Gotu", sans-serif;
+}
+.headingP{
+    margin: 0;
+    font-size: 1.8vh;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2vh;
 }
 
 .splide__arrows{

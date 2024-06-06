@@ -72,8 +72,8 @@ const Sec3Product = () => {
     const [active,setActive] = useState("BS")
 
   return <div id={style.Sec3Product}>
-    <p>Discover your Favorite</p>
-    <h1>Shop by Product</h1>
+    <p className='headingP'>Discover your Favorite</p>
+    <h1 className='headingH1'>Shop by Product</h1>
 
     <div id={style.tabs} className='flex'>
         <p className={active==="BS"?style.activeTab:style.deActiveTab} onClick={()=>setActive("BS")}>Best Sellers</p>
