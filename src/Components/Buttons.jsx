@@ -1,8 +1,8 @@
 import style from "../CSS/Button.module.css"
 
 
-export const ShopNowButn = ()=>{
+export const FilledButn = ({title})=>{
     return <button className={style.ShopNowButn}>
-        Shop Now
+        {title}
     </button>
 }

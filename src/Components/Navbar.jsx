@@ -4,17 +4,30 @@ import style from '../CSS/Navbar.module.css'
 const Navbar = () => {
 
     const [navStyle,setNavStyle] = useState({})
+    const [logoStyle,setLogoStyle] = useState({})
 
     
     const listenScrollEvent = () => {
         window.scrollY > 10 ? 
         setNavStyle({
-            backgroundColor:"white"
+            backgroundColor:"white",
+            padding:"2vh 0px 1vh 0px"
         }) 
         : 
         setNavStyle({
             // backgroundColor:"whitesmoke"
-            backgroundColor:"transparent"
+            backgroundColor:"transparent",
+            padding:"3vh 0px"
+
+        });
+
+        window.scrollY > 10 ? 
+        setLogoStyle({
+            width:"15vh"
+        }) 
+        : 
+        setLogoStyle({
+            width:"18vh"
         });
     };
 
@@ -45,7 +58,7 @@ const Navbar = () => {
         </div>
 
         <div id={style.NavMiddle}>
-            <img src={require("../Assets/Header/Vahdam.png")} alt="vahdam-logo" />
+            <img style={logoStyle} src={require("../Assets/Header/Vahdam.png")} alt="vahdam-logo" />
         </div>
 
         <div id={style.NavRight} className='flex'>

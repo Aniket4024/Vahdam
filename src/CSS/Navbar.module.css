@@ -23,7 +23,8 @@
 
 #NavMiddle{
     img{
-        width: 18vh;        
+        width: 18vh;   
+        transition: all 0.3s;     
     }
 }
 

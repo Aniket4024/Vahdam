@@ -1,0 +1,57 @@
+#Sec3Product{
+    padding: 7vh 0px;
+    width: 100%;
+
+    h1{
+        margin: 0.5vh 0 0 0;
+        font-size: 5vh;
+        color: #ab8744;
+        font-family: "Gotu", sans-serif;
+
+    }
+
+}
+#Sec3Product>p{
+    margin: 0;
+    font-size: 1.8vh;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2vh;
+}
+
+
+#tabs{
+    margin:3vh auto 10vh 0px;
+    gap:0 5vh;
+    justify-content: center;
+    
+}
+#tabs>p{
+    text-transform: uppercase;
+    font-size: 1.8vh;
+    /* font-weight: 500; */
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0;
+    transition: all 0.3s;
+}
+
+.activeTab{
+    color: black;
+}
+.deActiveTab{
+    color: #ab874487;
+}
+
+#ProductCarousel{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+#Sec3Product>p:last-child{
+    margin: 10vh auto 0 auto;
+    cursor: pointer;
+    text-decoration: underline;
+    letter-spacing: 0.1vh;
+}

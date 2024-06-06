@@ -1,5 +1,5 @@
 import style from "../../CSS/HomePage/Sec1-Hero.module.css"
-import { ShopNowButn } from "../Buttons"
+import { FilledButn } from "../Buttons"
 
 const Sec1Hero = () => {
   return <section id={style.Sec1Hero}>
@@ -7,7 +7,7 @@ const Sec1Hero = () => {
         <div>
             <h1>Spring is here!</h1>
             <p>Exclusive First Flush Teas from Darjeeling</p>
-            <ShopNowButn/>
+            <FilledButn title={"Shop Now"}/>
         </div>
     </div>
     <div id={style.heroMiddle} className="flex">
@@ -20,7 +20,7 @@ const Sec1Hero = () => {
     </div>
     <div id={style.heroBottom} className="flex">
       <div className="flex">
-        <p>"Thefreshest teas & spices directly from source In India".</p>
+        <p>"The freshest teas & spices directly from source In India".</p>
         <div className="flex">
           <img src={require("../../Assets/Header/New_York_Times-removebg-preview.png")} alt="" />
           <img src={require("../../Assets/Header/Forbes-removebg-preview.png")} alt="" />

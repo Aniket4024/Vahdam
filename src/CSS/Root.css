@@ -9,3 +9,12 @@
     display: flex;
     align-items: center;
 }
+
+.splide__arrows{
+    button{
+        margin-right: -80px;
+        margin-left: -80px;
+        background-color: transparent;
+        font-size: 2.5vh;
+    }
+}
