@@ -50,5 +50,5 @@
     background-color: white;
     color: var(--tertiory);
     font-weight: 600;
-    transition: font 0s;
+    transition: font 0s, background-color 0.3s;
 }

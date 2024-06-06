@@ -1,0 +1,10 @@
+#Footer{
+    padding: 5vh 0;
+    width: 100%;
+    background-image: url("../Assets/Footer/footer.png");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
