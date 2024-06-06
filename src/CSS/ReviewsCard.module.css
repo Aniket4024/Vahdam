@@ -1,0 +1,40 @@
+.ReviewsCard{
+    width: 35vh;   
+}
+
+.ReviewsCard>div{
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1vh;
+    justify-content: center;
+
+
+    font-size: 10vh;
+    color: rgba(255, 255, 255, 0.427);
+    cursor: pointer;
+}
+
+.highlight{
+    text-align: start;
+    color: #ab8744;
+    text-transform: uppercase;
+    font-size: 2vh;
+    margin: 3vh 0 0 0 ;
+    font-weight: 500;
+}
+.username{
+    text-align: start;
+    margin: 0;
+    font-size: 1.8vh;
+    font-weight: 500;
+}
+
+.review{
+    text-align: start;
+    margin:2vh 0 0 0;
+    font-size: 1.9vh;
+    font-weight: 500;
+}

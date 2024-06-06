@@ -23,7 +23,7 @@ const data = [
 ]
 
 const Sec4Community = () => {
-  return <div id={style.Sec4Community}>
+  return <section id={style.Sec4Community}>
     <p className='headingP'>Our community is growing</p>
     <h1 className='headingH1'>4 million+ customers</h1>
 
@@ -34,7 +34,7 @@ const Sec4Community = () => {
         })
       }
     </div>
-  </div>
+  </section>
 }
 
 export default Sec4Community

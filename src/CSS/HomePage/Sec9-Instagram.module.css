@@ -1,0 +1,16 @@
+#Sec9Instagram{
+    width: 80%;
+    margin: auto;
+    padding: 10vh;
+    border-top: 0.2vh solid rgb(218, 218, 218);
+    text-align: center;
+}
+#Sec9Instagram>div{
+    justify-content: space-between;
+    gap:0 1vh;
+    margin: 5vh 0 0 0;
+
+    img{
+        width: 16%;
+    }
+}

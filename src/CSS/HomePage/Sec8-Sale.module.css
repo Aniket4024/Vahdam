@@ -1,0 +1,14 @@
+#Sec8Sale{
+    padding: 10vh 0px;
+    width: 100%;
+}
+#productCarousel{
+    width: 80%;
+    margin:5vh auto;
+}
+#Sec8Sale>p:last-child{
+    margin: 10vh auto 0 auto;
+    cursor: pointer;
+    text-decoration: underline;
+    letter-spacing: 0.1vh;
+}

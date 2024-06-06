@@ -1,0 +1,11 @@
+#Sec7Reviews{
+    padding:8vh 0;
+    width: 100%;
+    background-color: var(--secondary);
+}
+#Sec7Reviews>div{
+    width: 60%;
+    margin:5vh auto;
+    justify-content: space-between;
+    
+}

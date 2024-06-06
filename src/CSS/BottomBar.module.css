@@ -1,0 +1,19 @@
+#BottomBar{
+    background-color: var(--tertiory);
+    width: 100%;
+    padding: 1vh 0;
+    
+    div{
+        width: 80%;
+        gap: 0 3vh;
+        justify-content: center;
+        color: var(--white);
+        margin: auto;
+        p{
+            margin: 0;
+            font-family: "Gotu", sans-serif;
+        }
+    }
+
+    
+}

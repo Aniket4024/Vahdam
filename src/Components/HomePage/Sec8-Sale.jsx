@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import style from '../../CSS/HomePage/Sec3-Product.module.css'
+import style from '../../CSS/HomePage/Sec8-Sale.module.css'
 import ProductCarousel from '../ProductCarousel'
 
 
@@ -67,26 +66,15 @@ const data = [
 ]
 
 
-const Sec3Product = () => {
-
-    const [active,setActive] = useState("BS")
-
-  return <section id={style.Sec3Product}>
-    <p className='headingP'>Discover your Favorite</p>
-    <h1 className='headingH1'>Shop by Product</h1>
-
-    <div id={style.tabs} className='flex'>
-        <p className={active==="BS"?style.activeTab:style.deActiveTab} onClick={()=>setActive("BS")}>Best Sellers</p>
-        <p className={active==="NEW"?style.activeTab:style.deActiveTab} onClick={()=>setActive("NEW")}>New</p>
-        <p className={active==="OE"?style.activeTab:style.deActiveTab} onClick={()=>setActive("OE")}>Online Exclusive</p>
-    </div>
-
-    <div className='flex' id={style.ProductCarousel}>
+const Sec8Sale = () => {
+  return <section id={style.Sec8Sale}>
+    <p className='headingP'>Buy Before It goes</p>
+    <h1 className='headingH1'>On Sale</h1>
+    <div className='flex' id={style.productCarousel}>
         <ProductCarousel data={data}/>
     </div>
-
     <p>View All Products</p>
   </section>
 }
 
-export default Sec3Product
+export default Sec8Sale

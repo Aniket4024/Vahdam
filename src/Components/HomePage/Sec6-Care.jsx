@@ -24,7 +24,7 @@ const data = [
 ]
 
 const Sec6Care = () => {
-  return <div id={style.Sec6Care}>
+  return <section id={style.Sec6Care}>
     <div className='flex'>
         <div id={style.careLeft}>
 
@@ -58,7 +58,7 @@ const Sec6Care = () => {
             </div>
         </div>
     </div>
-  </div>
+  </section>
 }
 
 export default Sec6Care

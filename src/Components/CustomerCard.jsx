@@ -10,7 +10,7 @@ const CustomerCard = ({id,name,image,review}) => {
         <img src={require("../Assets/Our Community/Icon Star.png")} alt="" />
         <img src={require("../Assets/Our Community/Icon Star.png")} alt="" />
     </div>
-    <p>{review}</p>
+    <p>"{review}"</p>
     <h5>{name}</h5>
   </div>
 }

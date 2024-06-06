@@ -2,7 +2,7 @@ import style from '../../CSS/HomePage/Sec5-Story.module.css'
 import { FilledButn } from '../Buttons'
 
 const Sec5Story = () => {
-  return <div id={style.Sec5Story}>
+  return <section id={style.Sec5Story}>
     <div className='flex'>
         <div id={style.storyLeft}>
             <p className='headingP'>A Legacy of 90 years</p>
@@ -31,7 +31,7 @@ const Sec5Story = () => {
             </div>
         </div>
     </div>
-  </div>
+  </section>
 }
 
 export default Sec5Story
